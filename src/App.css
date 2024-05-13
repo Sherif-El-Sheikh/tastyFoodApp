@@ -1970,7 +1970,7 @@
 
 @media(max-width: 1199px) {
     .fav-container .card-body h5{
-        font-size: 1rem !important;
+        font-size: 0.74rem !important;
     }
     .fav-container .card-body p{
         font-size: 13px !important;
