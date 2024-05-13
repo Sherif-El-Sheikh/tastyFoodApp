@@ -1518,12 +1518,15 @@
     .recipe-data .btn-save {
         width: 167px !important;
         height: 35px !important;
-        font-size: 14px !important;
+        font-size: 12px !important;
+    }
+    .recipe-data .btn-save span i{
+        font-size: 10px !important;
     }
     .recipe-data .btn-cancle {
         width: 167px !important;
         height: 35px !important;
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 }
 
