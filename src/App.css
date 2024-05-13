@@ -1987,14 +1987,15 @@
 
 @media(max-width: 768px) {
     .fav-container .card-body h5{
-        font-size: 14px !important;
+        font-size: 11px !important;
     }
     .fav-container .card-body p{
         font-size: 10px !important;
-        margin-bottom: 10px !important;
+        
     }
     .fav-container .card-body span{
         font-size: 11px !important;
+        margin-bottom: 10px !important;
     }
 }
 
