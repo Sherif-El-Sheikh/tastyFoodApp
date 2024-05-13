@@ -268,7 +268,7 @@ export default function RecipeData() {
         </div>
         <div className='d-flex justify-content-end add-border mb-6'>
         <button onClick={onCancel} className='btn btn-auth btn-cancle fs-sm mx-5 mt-4'>Cancel</button>
-        <button className='btn btn-auth btn-save fs-sm mt-4'>{recipeState === 'add'? 'Save' : 'Update'}
+        <button className='btn btn-auth btn-save fs-sm mx-1 mt-4'>{recipeState === 'add'? 'Save' : 'Update'}
         {isLoadingSpinner?
         <span>
             <i className='fa-solid text-light fa-spinner fa-spin'></i>
