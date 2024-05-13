@@ -271,7 +271,7 @@ export default function RecipeData() {
         <button className='btn btn-auth btn-save fs-sm mx-1 mt-4'>{recipeState === 'add'? 'Save' : 'Update'}
         {isLoadingSpinner?
         <span>
-            <i className='fa-solid text-light fa-spinner fa-spin'></i>
+            <i className='fa-solid text-light fa-spinner mx-1 fa-spin'></i>
         </span>
         : ''
     }
