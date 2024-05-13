@@ -1516,12 +1516,12 @@
 
 @media (max-width: 567px) {
     .recipe-data .btn-save {
-        width: 95px !important;
+        width: 167px !important;
         height: 35px !important;
         font-size: 14px !important;
     }
     .recipe-data .btn-cancle {
-        width: 115px !important;
+        width: 167px !important;
         height: 35px !important;
         font-size: 14px !important;
     }
