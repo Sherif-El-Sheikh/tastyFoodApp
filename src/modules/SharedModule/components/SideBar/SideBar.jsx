@@ -40,6 +40,8 @@ export default function SideBar() {
     navigate('/login')
   }
 
+
+
   return (
 
     <>
@@ -53,23 +55,23 @@ export default function SideBar() {
     <Sidebar collapsed={isCollapse}>
       <Menu>
         <MenuItem className={`${!isCollapse? 'ms-5':''} pt-3 pb-3 mt-4 mb-4`} onClick={toggleCollapse} icon={<img className={`${isCollapse? 'imgCollapse':''}`} src={toggler} alt="togglerMenu" />}></MenuItem>
-        <MenuItem className='mb-3 mb1' icon={<i className="fa-solid fa-house fs-5"></i>} component={<Link to="/dashboard" />} active={window.location.pathname === '/dashboard' && show == false}> Home </MenuItem>
+        <MenuItem className='mb-3 mb1' icon={<i className="fa-solid fa-house fs-5"></i>} component={<Link to="/dashboard" />} active={window.location.hash === '#/dashboard' && show == false}> Home </MenuItem>
         
         {loginData?.userGroup === 'SuperAdmin' ?
-        <MenuItem className='mb-3 mb1' icon={<i className="bi bi-people fs-5"></i>} component={<Link to="/dashboard/users" />} active={window.location.pathname === '/dashboard/users' && show == false}> Users </MenuItem>
+        <MenuItem className='mb-3 mb1' icon={<i className="bi bi-people fs-5"></i>} component={<Link to="/dashboard/users" />} active={window.location.hash === '#/dashboard/users' && show == false}> Users </MenuItem>
         :
         ''
         }
 
-        <MenuItem className='mb-3 mb1' icon={<i className="bi bi-columns-gap fs-5"></i>} component={<Link to="/dashboard/recipes" />} active={window.location.pathname === '/dashboard/recipes' && show == false}> Recipes </MenuItem>
+        <MenuItem className='mb-3 mb1' icon={<i className="bi bi-columns-gap fs-5"></i>} component={<Link to="/dashboard/recipes" />} active={window.location.hash === '#/dashboard/recipes' && show == false}> Recipes </MenuItem>
         
         {loginData?.userGroup === 'SuperAdmin' ?
-        <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-calendar-days fs-5"></i>} component={<Link to="/dashboard/categories" />} active={window.location.pathname === '/#/dashboard/categories' && show == false}> Categories </MenuItem>
+        <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-calendar-days fs-5"></i>} component={<Link to="/dashboard/categories" />} active={window.location.hash === '#/dashboard/categories' && show == false}> Categories </MenuItem>
         :
         ''
       }
       {loginData?.userGroup === 'SystemUser' ?
-            <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-heart fs-5"></i>} component={<Link to="/dashboard/favs" />} active={window.location.pathname === '/dashboard/favs' && show == false}> Favorites </MenuItem>
+            <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-heart fs-5"></i>} component={<Link to="/dashboard/favs" />} active={window.location.hash === '#/dashboard/favs' && show == false}> Favorites </MenuItem>
       
     :
     ''
