@@ -64,7 +64,7 @@ export default function SideBar() {
         <MenuItem className='mb-3 mb1' icon={<i className="bi bi-columns-gap fs-5"></i>} component={<Link to="/dashboard/recipes" />} active={window.location.pathname === '/dashboard/recipes' && show == false}> Recipes </MenuItem>
         
         {loginData?.userGroup === 'SuperAdmin' ?
-        <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-calendar-days fs-5"></i>} component={<Link to="/dashboard/categories" />} active={window.location.pathname === '/dashboard/categories' && show == false}> Categories </MenuItem>
+        <MenuItem className='mb-3 mb1' icon={<i className="fa-regular fa-calendar-days fs-5"></i>} component={<Link to="/dashboard/categories" />} active={window.location.pathname === '/#/dashboard/categories' && show == false}> Categories </MenuItem>
         :
         ''
       }
