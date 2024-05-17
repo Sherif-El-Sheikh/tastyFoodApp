@@ -40,7 +40,7 @@ export default function SideBar() {
     navigate('/login')
   }
 
-console.log(window.location.hash)
+
 
   return (
 
