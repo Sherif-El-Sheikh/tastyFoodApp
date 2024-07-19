@@ -6,7 +6,7 @@ It is ideal for a diverse user base, including amateur cooks and professional ch
 
 ## Features
 ### User Authentication and Authorization
-* <b>User Authentication:</b> Secure login and registration system to manage user access.
+* <b>User Authentication:</b> Secure login and registration system to manage user access, including "Forgot Password" and "Change Password" features for password recovery and management.
 * <b>User Roles:</b> Differentiated user roles, including SuperAdmin and regular users, to control access levels within the application.
 
 ### Recipe Management
