@@ -4,6 +4,8 @@ The Food Recipes Management System is an innovative web application designed to 
 Leveraging the latest web technologies, the platform provides an intuitive interface that allows users to effortlessly browse, organize, and contribute recipes.
 It is ideal for a diverse user base, including amateur cooks and professional chefs, offering features that elevate the cooking experience.
 
+## Features
+## User Authentication and Authorization
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
