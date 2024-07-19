@@ -24,12 +24,12 @@ It is ideal for a diverse user base, including amateur cooks and professional ch
 * <b>User Dashboard:</b> A personalized dashboard for regular users to view their favorite recipes and recent activity.
 
 ## Skills and Techniques Covered
-* React Development: Utilizing functional components, hooks (e.g., useState, useEffect, useContext), and the context API for state management across the application.
+* <b>React Development:</b> Utilizing functional components, hooks (e.g., <mark>useState</mark>, useEffect, useContext), and the context API for state management across the application.
 
-* Routing and Navigation: Implemented client-side routing using react-router-dom with route protection to manage navigation between different parts of the application.
+* <b>Routing and Navigation:</b> Implemented client-side routing using react-router-dom with route protection to manage navigation between different parts of the application.
 
-* Form Handling and Validation: Leverageing react-hook-form for efficient form handling and validation, ensuring a smooth user experience when submitting data.
+* <b>Form Handling and Validation:</b> Leverageing react-hook-form for efficient form handling and validation, ensuring a smooth user experience when submitting data.
 
-* API Integration: Used axios for making HTTP requests.
+* <b>API Integration:</b> Used axios for making HTTP requests.
 
-* Error Handling and Notifications: Implements error handling strategies and user notifications using react-toastify, enhancing the user interface and experience.
+* <b>Error Handling and Notifications:</b> Implements error handling strategies and user notifications using react-toastify, enhancing the user interface and experience.
