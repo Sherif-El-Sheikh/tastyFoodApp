@@ -1,6 +1,8 @@
-# React + Vite
+# Food Recipes Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Food Recipes Management System is an innovative web application designed to streamline the process of discovering, sharing, and managing food recipes.
+Leveraging the latest web technologies, the platform provides an intuitive interface that allows users to effortlessly browse, organize, and contribute recipes.
+It is ideal for a diverse user base, including amateur cooks and professional chefs, offering features that elevate the cooking experience.
 
 Currently, two official plugins are available:
 
