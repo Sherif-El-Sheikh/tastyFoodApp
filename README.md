@@ -24,7 +24,7 @@ It is ideal for a diverse user base, including amateur cooks and professional ch
 * <b>User Dashboard:</b> A personalized dashboard for regular users to view their favorite recipes and recent activity.
 
 ## Skills and Techniques Covered
-* <b>React Development:</b> Utilizing functional components, hooks (e.g., <mark>useState</mark>, useEffect, useContext), and the context API for state management across the application.
+* <b>React Development:</b> Utilizing functional components, hooks (e.g., `useState`, useEffect, useContext), and the context API for state management across the application.
 
 * <b>Routing and Navigation:</b> Implemented client-side routing using react-router-dom with route protection to manage navigation between different parts of the application.
 
